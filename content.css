@@ -1,0 +1,53 @@
+body {
+	background-color: #85afef !important;
+}
+
+/* import fonts */
+@font-face {
+ font-family: 'BYekan';
+ font-style: normal;
+ font-weight: 700;
+ src: url('chrome-extension://__MSG_@@extension_id__/fonts/BYekan.ttf'); 
+}
+@font-face {
+ font-family: 'IRFarnaz';
+ font-style: normal;
+ font-weight: 700;
+ src: url('chrome-extension://__MSG_@@extension_id__/fonts/IRFarnaz.ttf'); 
+}
+@font-face {
+ font-family: 'IRKamran';
+ font-style: normal;
+ font-weight: 700;
+ src: url('chrome-extension://__MSG_@@extension_id__/fonts/IRKamran.ttf'); 
+}
+@font-face {
+ font-family: 'IRKoodak';
+ font-style: normal;
+ font-weight: 700;
+ src: url('chrome-extension://__MSG_@@extension_id__/fonts/IRKoodak.ttf'); 
+}
+@font-face {
+ font-family: 'IRMitra';
+ font-style: normal;
+ font-weight: 700;
+ src: url('chrome-extension://__MSG_@@extension_id__/fonts/IRMitra.ttf'); 
+}
+@font-face {
+ font-family: 'IRNazanin';
+ font-style: normal;
+ font-weight: 700;
+ src: url('chrome-extension://__MSG_@@extension_id__/fonts/IRNazanin.ttf'); 
+}
+@font-face {
+ font-family: 'IRTitr';
+ font-style: normal;
+ font-weight: 700;
+ src: url('chrome-extension://__MSG_@@extension_id__/fonts/IRTitr.ttf'); 
+}
+@font-face {
+ font-family: 'SH Blabeloo';
+ font-style: normal;
+ font-weight: 700;
+ src: url('chrome-extension://__MSG_@@extension_id__/fonts/SH Blabeloo.ttf'); 
+}

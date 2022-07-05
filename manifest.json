@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+
+  "name": "My Extension",
+  "description": "Theme for Google.com",
+  "version": "1.0.0",
+  "icons": { "128": "icon_128.png" },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+	{
+	"matches": ["https://www.google.com/"],
+	"js": ["popup.js"],
+	"css":["content.css"]
+	}
+  ],
+  "permissions": [
+	"tabs",
+	"https://www.google.com/"
+  ],
+"web_accessible_resources": [
+ "styles/content.css",
+ "fonts/BYekan.ttf",
+"fonts/IRFarnaz.ttf",
+"fonts/IRKamran.ttf",
+"fonts/IRKoodak.ttf",
+"fonts/IRMitra.ttf",
+"fonts/IRNazanin.ttf",
+"fonts/IRTitr.ttf",
+"fonts/SH Blabeloo.ttf"
+ ]
+}
